@@ -1,0 +1,26 @@
+{
+    "name": "qeep-pro/yandex-money-validator",
+    "description": "Request validator for Yandex Money",
+    "keywords": ["api", "yandex", "validator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "QEEP-Pro",
+            "email": "info@qeep.pro"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "4.* || 3.* || 2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "QEEP\\YandexMoneyValidator\\": "src/"
+        }
+    }
+}
